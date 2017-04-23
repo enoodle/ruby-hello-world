@@ -1,4 +1,4 @@
-FROM centos/ruby-22-centos7
+FROM registry.access.redhat.com/rhscl/ruby-22-rhel7
 USER default
 EXPOSE 8080
 ENV RACK_ENV production
